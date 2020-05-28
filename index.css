@@ -85,7 +85,7 @@ nav {
 .dropDownNav {
   width: fit-content;
   height: fit-content;
-  background-color: seashell;
+  background-color: whitesmoke;
   display: none;
   flex-wrap: wrap;
   flex-direction: column;
