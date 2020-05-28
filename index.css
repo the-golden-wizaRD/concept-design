@@ -1,9 +1,9 @@
 body {
-  background-color: cadetblue;
+  /*background-color: cadetblue;*/
 }
 /*888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
 header {
-  background-color: yellow;
+  /*background-color: yellow;*/
   height: 100px;
   position: sticky;
   top: -10px;
@@ -36,7 +36,7 @@ header {
   z-index: 12;
 }
 #siteLogoContainer {
-  background-color: darkseagreen;
+  /*background-color: darkseagreen;*/
   display: flex;
   justify-content: space-evenly;
 }
@@ -44,7 +44,7 @@ header {
   width: 200px;
 }
 #navContainer {
-  background-color: darkseagreen;
+  /*background-color: darkseagreen;*/
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -71,7 +71,7 @@ nav {
   background-color: rgba(212, 212, 0, 0.918);
   text-decoration: none;
   text-transform: uppercase;
-  color: floralwhite;
+  color: black;
 }
 .dropDownNavSelector {
   width: 5vw;
@@ -98,7 +98,7 @@ nav {
   display: flex;
 }
 #userLogoContainer {
-  background-color: darkseagreen;
+  /*background-color: darkseagreen;*/
   display: flex;
   justify-content: space-evenly;
 }
@@ -109,7 +109,7 @@ nav {
 .mainBody {
   width: fit-content;
   height: fit-content;
-  background-color: midnightblue;
+  /*background-color: midnightblue;*/
   margin-top: 20px;
   display: flex;
   flex-wrap: nowrap;
@@ -118,7 +118,7 @@ nav {
 }
 .mainCardsSection {
   height: fit-content;
-  background-color: navajowhite;
+  /*background-color: navajowhite;*/
   margin: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -157,7 +157,7 @@ nav {
 .sideCardsSection {
   width: fit-content;
   height: fit-content;
-  background-color: navajowhite;
+  /*background-color: navajowhite;*/
   margin: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -196,7 +196,7 @@ footer {
 .about {
   width: 300px;
   height: auto;
-  background-color: steelblue;
+  /*background-color: steelblue;*/
   flex-grow: 1;
 }
 .creatorImg {
