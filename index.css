@@ -3,7 +3,7 @@ body {
 }
 /*888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
 header {
-  /*background-color: yellow;*/
+  background-color: white;
   height: 100px;
   position: sticky;
   top: -10px;
@@ -60,7 +60,7 @@ nav {
   align-items: center;
   position: relative;
   top: 20px;
-  background-color: darkturquoise;
+  /*background-color: darkturquoise;*/
 }
 .navLinks {
   margin: 10px;
@@ -68,7 +68,7 @@ nav {
   font-size: 25px;
   width: fit-content;
   height: fit-content;
-  background-color: rgba(212, 212, 0, 0.918);
+  /*background-color: rgba(212, 212, 0, 0.918);*/
   text-decoration: none;
   text-transform: uppercase;
   color: black;
