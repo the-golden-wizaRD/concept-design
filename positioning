@@ -1,0 +1,8 @@
+remove from normal flow
+    absolute
+    fixed
+    float
+
+
+position: relative; just moves the element in place but does not remove it from normal flow and adjecent elements still feel the positioned element to be in its original place. its like refraction, object is present somewhere else but appears at some other position
+whereas in case of like of absolute positioning, object is actually moved.

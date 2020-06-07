@@ -1,133 +1,54 @@
-body {
+ /** {
   background-color: cadetblue;
 }
-/*888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
-header {
-  background-color: yellow;
-  height: 100px;
-  position: sticky;
-  top: -10px;
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-  z-index: 10;
-}
-.headerContainers {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  height: 80%;
-  padding: 10px;
-  margin: 0px 10px;
-  z-index: 11;
-}
-.navLogo {
-  height: 70px;
-  background-color: darkturquoise;
-  padding: 5px;
-  display: flex;
-  justify-content: space-evenly;
-  vertical-align: bottom !important;
-  font-size: 50px;
-  font-family: "Baloo 2", cursive;
-  color: rgb(255, 255, 255) !important;
-  z-index: 12;
-}
-#siteLogoContainer {
-  background-color: darkseagreen;
-  display: flex;
-  justify-content: space-evenly;
-}
-#siteLogo {
-  width: 200px;
-}
-#navContainer {
-  background-color: darkseagreen;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  align-items: baseline;
-  position: relative;
-  flex-grow: 1;
-}
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  position: relative;
-  top: 20px;
-  background-color: darkturquoise;
-}
-.navLinks {
-  margin: 10px;
-  padding: 5px;
-  font-size: 25px;
-  width: fit-content;
-  height: fit-content;
-  background-color: rgba(212, 212, 0, 0.918);
-  text-decoration: none;
-  text-transform: uppercase;
-  color: floralwhite;
-}
-.dropDownNavSelector {
-  width: 5vw;
-  height: 60px;
-  background-color: sandybrown;
-  position: absolute;
-  top: 20px;
-  display: none;
-}
-.dropDownNav {
-  width: fit-content;
-  height: fit-content;
-  background-color: seashell;
-  display: none;
-  flex-wrap: wrap;
-  flex-direction: column;
-  position: fixed;
-  z-index: 15;
-}
-.dropDownNavSelector:hover ~ .dropDownNav {
-  display: flex;
-}
-.dropDownNav:hover {
-  display: flex;
-}
-#userLogoContainer {
-  background-color: darkseagreen;
-  display: flex;
-  justify-content: space-evenly;
-}
-#userLogo {
-  width: 100px;
-}
-/*8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
-.mainBody {
-  width: fit-content;
-  height: fit-content;
+* * {
   background-color: midnightblue;
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  text-align: center;
 }
-.mainCardsSection {
-  height: fit-content;
-  background-color: navajowhite;
-  margin: 20px;
+* * * {
+  background-color: ivory;
+}
+* * * * {
+  background-color: lightslategray;
+}
+* * * * * {background-color: lightsalmon;}*/
+
+/*giving base font size for further rems*/
+html {
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*general padding*/
+.padding-1 {
+  padding: 1rem;
+}
+.padding-2 {
+  padding: 2rem;
+}
+
+.navbar .navbar-brand .display-1 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.main {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  font-size: 10px;
+}
+.main-card-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-evenly;
 }
+
 .cards {
-  width: 350px;
-  height: 500px;
-  margin: 30px 10px;
+  width: 35em;
+  height: 50em;
+  margin: 3em 1em;
   position: relative;
   perspective: 1100px;
 }
@@ -154,86 +75,55 @@ nav {
 .cards:hover > .back {
   transform: rotateY(0deg);
 }
-.sideCardsSection {
-  width: fit-content;
-  height: fit-content;
-  background-color: navajowhite;
-  margin: 20px;
+
+.featured-section {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-evenly;
+  align-items: center;
+  justify-content: flex-start;
 }
+
 .sideCards {
-  width: 450px;
-  height: 600px;
+  width: 45em;
+  height: 60em;
   background-color: rgb(50, 50, 50);
   box-shadow: 0px 3px 10px 3px rgba(51, 51, 51, 0.507);
   border-radius: 5px;
-  margin: 20px;
-  margin-top: 30px;
+  margin-top: 3em;
 }
-/*8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
+
 footer {
-  height: 300px;
-  background-color: slategrey;
-  padding: 15px;
-  margin: 10px 0px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-.footerContainers {
-  margin: 10px;
-  padding: 15px;
-  position: relative;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-}
-.about {
-  width: 300px;
-  height: auto;
-  background-color: steelblue;
-  flex-grow: 1;
-}
-.creatorImg {
-  width: 100px;
-  height: 100px;
-  border-radius: 100px;
-  background-color: snow; 
-}
-.creatorName {
-  font-size: 50px;
-  color: aliceblue;
-  margin: 20px;
-  padding: 10px;
-  text-transform: uppercase;
-  background-color: dimgray;
-}
-.community {
-  width: 400px;
-  height: auto;
-  background-color: steelblue;
-  flex-grow: 2;
-}
-.support {
-  width: 300px;
-  height: auto;
-  background-color: steelblue;
-  flex-grow: 1;
-}
-/*8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
-@media screen and (max-width: 1000px) {
-  .mainBody {
-    flex-wrap: wrap-reverse;
-  }
-  nav {
-    display: none;
-  }
-  .dropDownNavSelector {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.footer-containers {
+    height: 30rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .main {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 1086px) {
+  .main {
+    font-size: 7.26px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main {
+    flex-direction: column-reverse;
+    font-size: 8px;
+  }
+  .featured-section {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (max-width: 650px) {
+  .main {
+    font-size: 8.5px;
   }
 }
